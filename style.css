@@ -1,0 +1,63 @@
+/* --- Dark exhibition room --- */
+
+body {
+  margin: 0;
+  background-color: #1f2123; /* deep charcoal */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #222;
+}
+
+/* --- Centered layout --- */
+
+.container {
+  max-width: 780px;
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+/* --- Cards --- */
+
+.card {
+  background-color: #f2f2ee; /* soft light gray, not white */
+  padding: 48px 52px;
+  margin-bottom: 70px;
+  border-radius: 4px;
+}
+
+/* --- Title --- */
+
+h2 {
+  margin: 0 0 18px 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #1a1a1a;
+  transition: opacity 0.2s ease;
+}
+
+h2 a:hover {
+  opacity: 0.65;
+}
+
+/* --- Metadata --- */
+
+.meta {
+  margin: 0 0 24px 0;
+  font-size: 0.9rem;
+  color: #666;
+  font-family: Georgia, serif; /* serif contrast */
+}
+
+/* --- Teaser --- */
+
+.teaser {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+  color: #2a2a2a;
+}
