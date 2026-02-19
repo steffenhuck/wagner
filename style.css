@@ -51,7 +51,7 @@ body{
   border-radius: 4px;
 }
 
-/* --- Title (only clickable element) --- */
+/* --- Title --- */
 
 .title{
   margin: 0 0 18px 0;
@@ -92,6 +92,24 @@ body{
   line-height: 1.62;
   color: var(--text);
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* --- Signature --- */
+
+.signature{
+  margin: 20px 0 0 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.signature a{
+  color: rgba(230,230,227,0.45);
+  text-decoration: none;
+}
+
+.signature a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* --- Responsive tweaks --- */
